@@ -1,12 +1,12 @@
 #ifndef LIVETOOL
 #define LIVETOOL
 
-char ssid[] = "LASS";       // 你的WiFi網路名稱  例如是 Hack4u  就打 "Hack4u"
-char pass[] = "LASS123456";     // 你的網路密碼 沒有密碼不要找我
-char gps_lat[] = "25.0413";   // 你在Google Map查到的緯度(預設地址)
-char gps_lon[] = "121.6144";  // 你在Google Map查到的經度(預設地址)
-const int lass_period = 60;      // 幾秒想傳一次資料 建議實際上線是 60
-char blynk_auth[] = "c2a0129372b74234ac8a358409a03425"; //你的 Blynk Token 密碼 
+char ssid[] = "LASS";       // The WiFi SSID
+char pass[] = "LASS123456";     // The WiFi Password
+char gps_lat[] = "25.0413";   // The Latitude of your location
+char gps_lon[] = "121.6144";  // Th Longitude of your location
+const int lass_period = 60;      // The interval between every two samples (seconds)
+char blynk_auth[] = "c2a0129372b74234ac8a358409a03425"; // The key for Blynk app
 
 #define LANG 1
 /*
